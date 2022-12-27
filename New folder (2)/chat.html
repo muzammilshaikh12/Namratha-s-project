@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Page</title>
+    <style>
+      body {
+        background-image: url(chat_1.jpg);
+        background-size: cover;
+      }
+      input {
+        padding: 10px;
+      }
+      label {
+        font-family: cursive;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <link
+    rel="stylesheet"
+    href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+  />
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <body>
+    <h1>LET'S CHAT</h1>
+    <label>Enter your Name:</label>
+    <input type="text" placeholder="enter your name" id="txtInputData" />
+    <!-- <button onclick="displayName(event)">Send</button> -->
+    <p id="show_name"></p>
+    <label>Enter your Message:</label>
+    <input type="text" placeholder="enter your text" id="txtInputData1" />
+    <button onclick="displayName1(event)">Send</button>
+    <div id="mydiv2">
+        <a href='./inbox.html'>Check Messages</a>
+    </div>
+    
+    </body>
+  <script src="script.js">
+    
+  </script>
+</html>
